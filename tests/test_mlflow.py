@@ -20,3 +20,4 @@ if __name__ == "__main__":
         signature = infer_signature(X, predictions)
         mlflow.sklearn.log_model(lr, "model", signature=signature)
         print(f"Model saved in run {mlflow.active_run().info.run_uuid}")
+
