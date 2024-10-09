@@ -1,3 +1,5 @@
 tests/env
 yolov8/*
 .venv/
+docker/.env
+runs/
